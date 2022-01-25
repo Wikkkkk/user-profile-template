@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<title></title>
+	<style>
+    {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns */
+    .column {
+    float: left;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 30%;
+    }
+
+    .middle {
+    width: 40%;
+    }
+    
+    .right {
+    width: 30%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+    </style>
+</head>
+<body>
+	<div class="row">
+        <div class="column left" style="background-color:#FFB695;">
+            <!---avatra image--->
+             <div class="col-md-6 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="image.jpg" <!-- style="margin-left: 280px; "><span class="font-weight-bold" style="margin-left: 280px;">YourProfile</span><span class="text-black-50" style="margin-left: 280px;"><a href="login.html">Login</a></span><span> </span></div>
+        </div>
+        </div>
+        <div class="column middle" style="background-color:#96D1CD;">
+            <div class="container" >
+		<form name="myform" class="form-group">
+			<h2 style="text-align: center; font-weight: bold; font-size: 45px;">Create Your Account</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<label for="inputname">First Name</label>
+					<input type="text" class="form-control" placeholder="First Name">
+				</div>
+				<div class="col-md-6">
+					<label for="inputname">Last Name</label>
+					<input type="text" class="form-control" placeholder="Last Name">
+				</div>
+				<div class="col-md-12">
+					<label for="Mobile">Mobile Number</label>
+					<input type="text" class="form-control" placeholder="Mobile Number">
+				</div>
+				<div class="col-md-12">
+					<label for="emil">Email</label>
+					<input type="text" class="form-control" placeholder="Email">
+				</div>
+				<div class="col-md-12">
+					<label for="psw">Password</label>
+					<input type="Password" class="form-control" placeholder="Password">
+				</div>
+				<div class="col-md-12">
+					<label for="adr">Address Line1</label>
+					<input type="text" class="form-control" placeholder="Address">
+				</div>
+				<div class="col-md-12">
+					<label for="adr">Address Line2</label>
+					<input type="text" class="form-control" placeholder="Address">
+				</div>
+				<div class="col-md-12">
+					<label for="Education details">Education details</label>
+					<input type="text" class="form-control" placeholder="Education details">
+				</div>
+				<div class="col-md-6">
+					<label for="city">City</label>
+					<input type="text" class="form-control" placeholder="City">
+				</div>
+				<div class="col-md-4" <!-- style="margin-top:30px -->">
+					<label for="city">State</label>
+					<select class="form-select" aria-label="Default select example">
+					<option selected>State</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+						<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+						<option value="Assam">Assam</option>
+						<option value="Bihar">Bihar</option>
+						<option value="Chandigarh">Chandigarh</option>
+						<option value="Chhattisgarh">Chhattisgarh</option>
+						<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+						<option value="Daman and Diu">Daman and Diu</option>
+						<option value="Delhi">Delhi</option>
+						<option value="Lakshadweep">Lakshadweep</option>
+						<option value="Puducherry">Puducherry</option>
+						<option value="Goa">Goa</option>
+						<option value="Gujarat">Gujarat</option>
+						<option value="Haryana">Haryana</option>
+						<option value="Himachal Pradesh">Himachal Pradesh</option>
+						<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+						<option value="Jharkhand">Jharkhand</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Kerala">Kerala</option>
+						<option value="Madhya Pradesh">Madhya Pradesh</option>
+						<option value="Maharashtra">Maharashtra</option>
+						<option value="Manipur">Manipur</option>
+						<option value="Meghalaya">Meghalaya</option>
+						<option value="Mizoram">Mizoram</option>
+						<option value="Nagaland">Nagaland</option>
+						<option value="Odisha">Odisha</option>
+						<option value="Punjab">Punjab</option>
+						<option value="Rajasthan">Rajasthan</option>
+						<option value="Sikkim">Sikkim</option>
+						<option value="Tamil Nadu">Tamil Nadu</option>
+						<option value="Telangana">Telangana</option>
+						<option value="Tripura">Tripura</option>
+						<option value="Uttar Pradesh">Uttar Pradesh</option>
+						<option value="Uttarakhand">Uttarakhand</option>
+						<option value="West Bengal">West Bengal</option>
+                  </select>
+					
+                    
+				</div>
+				<div class="col-md-2">
+					<label for="city">Zip code</label>
+					<input type="text" class="form-control" placeholder="Zip code">
+				</div>
+				<div class="col-md-12" style="text-align: center; margin-top: 20px;">
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+
+			</div>
+		</form>
+	</div>
+        </div>
+        <div class="column right" style="background-color:#74C3E1;">
+            <h4>Edit Experience</h4>
+            <div class="col-md-4" style="text-align: center; margin-left: 300px;">
+				<button type="submit" class="btn btn-primary">Experience</button>
+			</div>
+            
+            <div class="col-md-12">
+					<label for="inputname">Experiance detail</label>
+					<input type="text" class="form-control" placeholder="Experiance deitail">
+				</div>
+				 <div class="col-md-12">
+					<label for="inputname">Additional details</label>
+					<input type="text" class="form-control" placeholder="Aditonal detail">
+				</div>
+        </div>
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
